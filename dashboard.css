@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+#cabecao{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(182, 30, 30);
+    align-items: center;
+    align-content: center;
+    height: 4vw;
+    
+}
+
+main {
+    padding-top: 100px;
+}
+
