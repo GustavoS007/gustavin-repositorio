@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(assets/images/red\ dead\ 1.jpg);
+    background: url(assets/images/wallpaper\ top.png);
     background-color: rgb(27, 27, 109);
     height: 100vh;
     display: flex;
@@ -19,22 +19,25 @@ body {
 
 
 #loginemail {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
     border-color: black;
-    
+    margin: auto;
+    height: auto;
 }
 
 #loginsenha {
     background-color: rgba(255, 255, 255, 0);
     border-color: black;
+    margin: auto;
+    height: auto;
 }
 
 .quadrados {
     width: 400px;
     height: 30px;
     border-radius: 50px;
-    background-color: #736e9477;
-    margin:auto;
+    background-color: #06050e77;
+    margin: 10px;;
     border: 2px solid rgb(255, 255, 255);
 }
 
@@ -68,6 +71,7 @@ body {
 }
 
 #entrarbox {
+   
     background-color: rgb(255, 253, 253);
     color: rgb(0, 0, 0);
     

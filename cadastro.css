@@ -6,8 +6,8 @@
 
 
 body {
-    background: url(assets/images/red\ dead\ 1.jpg);
-    background-color: rgb(27, 27, 109);
+    background: url(assets/images/wallpaper\ top.png);
+    background-color: rgb(209, 209, 216);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ body {
     width: 400px;
     height: 30px;
     border-radius: 50px;
-    background-color: #736e9477;
+    background-color: #00000077;
     margin:auto;
     border: 2px solid rgb(255, 255, 255);
 }
