@@ -1,0 +1,78 @@
+@font-face {
+    font-family: fonte;
+    src: url(assets/fonte/Play\ Area.otf);
+}
+
+
+
+body {
+    background: url(assets/images/wallpaper\ top.png);
+    background-color: rgb(209, 209, 216);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    font-size: 30px;
+}
+
+
+
+#email {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    
+}
+
+#senha {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+}
+
+.quadrados {
+    width: 400px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #00000077;
+    margin:auto;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#seleção {
+    border-color: black;
+    background-color: #ffffff;
+}
+
+#termos {
+    border-color: black;
+    
+}
+
+#card {
+    font-family: fonte;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#fcfcfc;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.8);
+    width: 500px;
+    height: 650px;
+    border: 2px solid #000000;
+}
+
+#entrar {
+    background-color: rgb(0, 0, 0);
+
+}
+    
+
+
