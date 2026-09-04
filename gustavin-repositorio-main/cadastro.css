@@ -1,0 +1,112 @@
+@font-face {
+    font-family: fonte;
+    src: url(assets/fonte/Play\ Area.otf);
+}
+
+body {
+    background: url(assets/images/wallpaper\ top.png);
+    background-size: cover;
+    background-color: rgb(27, 27, 109);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#login {
+    font-size: 30px;
+    color: white;
+}
+
+
+#email, #senha {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    width: 55%;
+}
+
+
+.quadrados {
+    width: 380px;
+    min-height: 45px;
+    border-radius: 50px;
+    background-color: #06050e77;
+    margin: 8px 0;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+
+#selecao {
+    border-color: black;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+
+.termos-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px 0;
+    color: white;
+}
+
+#termos {
+    color: white;
+}
+
+
+#card {
+    font-family: fonte;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.8);
+    width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid #000000;
+}
+
+
+#entrar {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-family: fonte, sans-serif;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    margin-top: 15px;
+    width: auto;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+#entrar:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.8;
+}

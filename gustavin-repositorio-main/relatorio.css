@@ -1,0 +1,58 @@
+@font-face {
+    font-family: fonte;
+    src: url(assets/fonte/Play\ Area.otf);
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/images/wallpaper\ top.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(209, 209, 216);
+    min-height: 100vh;
+    font-family: fonte, Arial, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: left;
+    padding: 14px 18px;
+    color: #ffffff;
+}
+
+th {
+    background-color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

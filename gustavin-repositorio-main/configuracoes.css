@@ -1,0 +1,108 @@
+@font-face {
+    font-family: fonte;
+    src: url(assets/fonte/Play\ Area.otf);
+}
+
+body {
+    background: url(assets/images/wallpaper\ top.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(209, 209, 216);
+    min-height: 100vh;
+    font-family: fonte, Arial, sans-serif;
+    color: white;
+}
+
+#cabecao {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card-config {
+    background: rgba(0, 0, 0, 0.75);
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.8);
+    border-radius: 15px;
+    width: 450px;
+    padding: 30px;
+}
+
+.card-config h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.opcoes-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.opcao-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opcao-item select {
+    padding: 5px;
+    border-radius: 8px;
+    background: white;
+    color: black;
+}
+
+.botoes-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#btn-salvar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-family: fonte, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-salvar:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-voltar {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    text-decoration: underline;
+}
